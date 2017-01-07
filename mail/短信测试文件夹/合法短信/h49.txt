@@ -1,0 +1,9 @@
+har * const p       = "hello";          // constÖ¸Õë,
+                                         // ·ÇconstÊý¾Ý
+
+const char * const p = "hello";          // constÖ¸Õë,
+                                         // constÊý¾Ý
+
+Óï·¨²¢·Ç¿´ÆðÀ´ÄÇÃ´±ä»¯¶à¶Ë¡£Ò»°ãÀ´Ëµ£¬Äã¿ÉÒÔÔÚÍ·ÄÔÀï»­Ò»Ìõ´¹Ö±Ïß´©¹ýÖ¸ÕëÉùÃ÷ÖÐµÄÐÇºÅ£¨*£©Î»ÖÃ£¬Èç¹ûconst³öÏÖÔÚÏßµÄ×ó±ß£¬Ö¸ÕëÖ¸ÏòµÄÊý¾ÝÎª³£Á¿£»Èç¹ûconst³öÏÖÔÚÏßµÄÓÒ±ß£¬Ö¸Õë±¾ÉíÎª³£Á¿£»Èç¹ûconstÔÚÏßµÄÁ½±ß¶¼³öÏÖ£¬¶þÕß¶¼ÊÇ³£Á¿¡£
+
+ÿ

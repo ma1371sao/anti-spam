@@ -1,0 +1,19 @@
+¡¡¶Ô³ÌÐòÖÐ×Ô¶¨ÒåµÄ±äÁ¿¡¢º¯Êý¡¢×Ó³ÌÐò¼ÓÒÔ¹¦ÄÜÐÔµÄ×¢ÊÍËµÃ÷£¬±ðÏÓÂé·³¡£Èç¹û¹ýÁËÈýÔÂÎåÔÂ£¬Á¬×Ô¼ºÐ´µÄ¶«Î÷¶¼¿´²»Ã÷°×ÁË£¬ÄÇ²Å´óÂé·³¡£ 
+¡¡¡¡8¡¢»·¾³±£»¤ 
+¡¡¡¡Èç¹ûÓ¦ÓÃ³ÌÐòÐèÒªÐÞ¸ÄÏµÍ³ÉèÖÃ£¬¼Ç×ÅÓ¦ÓÃ¿ªÊ¼Ç°ÏÈ±£´æÉèÖÃ£¬Ó¦ÓÃ½áÊøºóÒª»Ö¸´ÉèÖÃ£¬Ç§Íò±ðÎÛÈ¾»·¾³¡£ 
+¡¡¡¡9¡¢ÄÃÀ´Ö÷Òå 
+¡¡¡¡Ò»¸öÈËµÄÁ¦Á¿ÊÇÓÐÏÞµÄ£¬´ó¼ÒµÄÁ¦Á¿ÊÇÎÞÏÞµÄ£¬Æ½Ê±¶à¿´¿´¡¶ÖÐ¹úµçÄÔ½ÌÓý±¨¡·£¬Èç¹ûÅöÇÉÓÐºÃµÄ¾­Ñé£¬ÇÉµÄ·½·¨£¬ÓÃµÃÉÏµÄ¶Î×Ó£¬²»·ÁÄÃÀ´¡£ 
+¡¡¡¡10¡¢ÈÌÕßÎÞµÐ 
+¡¡¡¡µ±ÄãÈÏÎª³ÌÐò´úÂëÐ´µÄ¡°°Ù·Ö°Ù¡±ÕýÈ·£¬¶ø³ÌÐò±àÒëÖ´ÐÐ°Ù·Ö°ÙÓÐÃ«²¡£¬Äã»ù±¾ÊôÓÚÔÎ²ËµÄÊ±ºò£¬Ç§ÍòÒªÈÌ£¬Ðª¿ÚÆø£¬ÖØÍ·À´£¬±ð·ÅÆú£¡ÏàÐÅ×îÖÕµÄÊ¤ÀûÊÇÊôÓÚÄãµÄ£¡ ÿ ÇóÖú SOS
+
+´ó¼ÒºÃ£¬ÎÒÊÇVB³õÑ§Õß£¬ÎÒ×°µÄVB6.0ÊÇ¼òÌå°æµÄ£¬ÀïÃæÃ»ÓÐÒ»¸ö½ÐMicrosoft Visual studioµÄÎÄ¼þ¼Ð£¬µ«ºÃ¶àÊ±ºòÒªÓÃµ½ÀïÃæµÄÒ»Ð©Í¼Æ¬Ö®ÀàµÄ¶«Î÷£¬ÄÄ¶ùÓÐ°¡£¬ÄÜÉÏ´«Ò»¸öÂð£¬»òÕß·¢µ½ÎÒµÄÐÅÏäÀïÈ¥£¬liuzhiwei_1981@163.com Ð»Ð»ÁË£¡£¡£¡ ÿ  HELP£¡Ë­»á×öÊ±ÖÓ£¿
+
+ÎÒÐèÒª×ö1¸öÓÐÊ±Õë¡¢·ÖÕë¡¢ÃëÕëµÄÊ±ÖÓ£¬ÕâÊÇ»á¿¼×÷ÒµÖ®Ò»
+Çë¸÷Î»ÏÀ¿Í°ï°ïÃ¦£¡ ÿ³ÌÐòÔÚVC 6.0ÖÐÓ¦¸ÃÊÇ¿ÉÒÔÍ¨¹ý±àÒëµÄ¡£µ«ÊÇ¶ÔTURBO C++ÕâÖÖ¾ÉµÄ±àÒëÆ÷£¬ËùÓÐÍ·ÎÄ¼þµÄÀ©Õ¹Ãû¶¼±ØÐëÊÇ .h¡£Ò²¾ÍÊÇÓ¦¸Ã°Ñ"#include <iostream>"¸Ä³É"#include <iostream.h>"¡£¶øÇÒ£¬´ó¶àÊý¾ÉÊ½±àÒëÆ÷¸ù±¾¾Í²»ÄÜÊ¶±ðusing namespaceÓï¾ä¡£°Ñ³ÌÐòÐÞ¸ÄÈçÏÂÔÚÁ½ÖÖ»·¾³ÖÐÓ¦¸Ã¶¼¿ÉÒÔÍ¨¹ý±àÒë£ºÿÎÒÍÆ¼öÒ»±¾±È»ù´¡ÉÔÎ¢¸ßÒ»µãµÄÊé£º
+£¼Êý¾Ý½á¹¹C£«£«ÓïÑÔÃèÊö£ßÓ¦ÓÃ±ê×¼Ä£°å¿â£¾
+Data Structures with C++ Using STL
+
+¸ÃÊé¸ù¾ÝSTL¶¨ÒåÀàºÍÆäËûÊý¾Ý½á¹¹µÄ·½·¨£¬À´±àÐ´×Ô¼ºµÄÊý¾Ý½á¹¹ºÍÀà¡£
+
+ÍøÖ·£ºwww.fordtopp.com
+ÿÎÒÒ²ËµÒ»±¾£¬ÎÒÍ¦Ï²

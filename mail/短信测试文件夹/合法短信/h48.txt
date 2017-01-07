@@ -1,0 +1,15 @@
+:
+aµÄµØÖ·Îª1£¬bµÄµØÖ·Îª2¡£ÄÇ¶¨Òåconst int *p=&a;
+ÄÇÃ´Èç¹ûÁîp=&bÄÇ*pµÄÖµ»á²»»á±äÎª2£¿ ÿ¶ÔÖ¸ÕëÀ´Ëµ£¬¿ÉÒÔÖ¸¶¨Ö¸Õë±¾ÉíÎªconst£¬Ò²¿ÉÒÔÖ¸¶¨Ö¸ÕëËùÖ¸µÄÊı¾İÎªconst£¬»ò¶şÕßÍ¬Ê±Ö¸¶¨Îªconst£¬»¹ÓĞ£¬Á½Õß¶¼²»Ö¸¶¨Îªconst£º
+
+char *p              = "hello";          // ·ÇconstÖ¸Õë,
+                                         // ·ÇconstÊı¾İ
+
+const char *p        = "hello";          // ·ÇconstÖ¸Õë,
+                                         // constÊı¾İ
+
+char * const p       = "hello";          // constÖ¸Õë,
+                                         // ·ÇconstÊı¾İ
+
+const char * const p = "hello";          // constÖ¸Õë,
+                                         // co

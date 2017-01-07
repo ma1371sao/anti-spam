@@ -1,0 +1,25 @@
+
+¡¡¡¡WinMainº¯ÊýÇ°µÄÐÞÊÎ·ûWINAPIµÄ½âÊÍ£¬ÎÒÃÇÊ¹ÓÃgoto definition¹¦ÄÜ£¬·¢ÏÖWINAPIÆäÊµ¾ÍÊÇ__stdcall¡£
+
+////  :: std = standard -> ±ê×¼
+
+¡¡¡¡__stdcallÓë__cdeclÊÇÁ½ÖÖ²»Í¬µÄº¯Êýµ÷ÓÃÏ°¹ß£¬¶¨ÒåÁË²ÎÊýµÄ´«µÝË³Ðò¡¢¶ÑÕ»Çå³ýµÈ¡£¹ØÓÚËüÃÇµÄÏêÏ¸ÐÅÏ¢Çë²Î¿´msdn¡£ÓÉÓÚ³ýÁËÄÇÐ©¿É±ä²ÎÊýµÄAPIº¯ÊýÍâ£¬ÆäÓàµÄAPIº¯Êý¶¼ÊÇ__stdcallÏ°¹ß¡£ÓÉÓÚVC++³ÌÐòÄ¬ÈÏµÄ±àÒëÑ¡ÏîÊÇ__cdecl£¬ËùÒÔÔÚVC++ÖÐµ÷ÓÃÕâÐ©__stdcallÏ°¹ßµÄAPIº¯Êý£¬±ØÐëÔÚÉùÃ÷ÕâÐ©º¯ÊýµÄÔ­ÐÍÊ±¼ÓÉÏ__stdcallÐÞÊÎ·û£¬ÒÔ±ã¶Ô¸Ãº¯ÊýµÄµ÷ÓÃÊ¹ÓÃ__stdcallÏ°¹ß¡£ÎÒÃÇÔøÓÐÕâÑùµÄ¾­Ñé£¬ÔÚDelphi(Ä¬ÈÏµÄ±àÒëÑ¡ÏîÊÇ__stdcall)ÖÐ±àÐ´µÄdllÖÐµÄº¯Êý£¬ÔÚVC++ÖÐ±»µ÷ÓÃÊ±£¬×ÜÊÇÔì³É³ÌÐò±ÀÀ££¬ÔÚº¯ÊýµÄÔ­ÐÍÉùÃ÷ÖÐ¼ÓÉÏ__stdcallÐÞÊÎ·û£¬±ã½â¾öÁËÕâ¸öÎÊÌâ¡£»Øµ÷º¯ÊýÒ²±ØÐëÊÇ__stdcallµ÷ÓÃÏ°¹ß£¬ÔÚÕâÀïÊÇÓÃCALLBACKÀ´±êÊ¶µÄ£¬·ñÔò£¬ÔÚNT4.0»·¾³£¬³ÌÐò½«±ÀÀ££¬µ«win98ºÍwin2000È´Ã»ÓÐÕâÖÖÏÖÏó¡£
+
+¡¡¡¡Winmainº¯ÊýµÄ³ÌÐò´úÂë°´¹¦ÄÜ»®·ÖÖ÷ÒªÓÐÁ½²¿·Ö£º1.²úÉú²¢ÏÔÊ¾³ÌÐòµÄÖ÷´°¿Ú¡£´°¿Ú´´½¨²¢ÏÔÊ¾ºó£¬ÓÃ»§±ã¿ÉÒÔÔÚ´°¿ÚÉÏ½øÐÐ¸÷ÖÖ²Ù×÷ÁË£¬ÓÃ»§µÄ²Ù×÷¼°³ÌÐò×´Ì¬µÄ±ä»¯¶¼ÒÔÏûÏ¢µÄÐÎÊ½·Åµ½ÁËÓ¦ÓÃ³ÌÐòµÄÏûÏ¢¶ÓÁÐÖÐ¡£2.´ÓÏûÏ¢¶ÓÁÐÑ­»·È¡×ßÏûÏ¢£¬²¢½«ÏûÏ¢ÅÉ·¢µ½´°¿Ú¹ý³Ìº¯ÊýÖÐÈ¥´¦Àí¡£µ±ÏûÏ¢Ñ­»·È¡µ½Ò»ÌõWM_QUITÏûÏ¢Ê±£¬½«½áÊøÑ­»·£¬WinMainº¯Êý·µ»Ø£¬½áÊøÕû¸ö³ÌÐòµÄÔËÐÐ¡£Èç¹ûWinMainÔÚÏûÏ¢Ñ­»·Ö®Ç°·µ»Ø£¬³ÌÐòÃ»ÓÐÕý³£ÔËÐÐ£¬·µ»ØÖµÎª0¡£Èç¹ûÔÚÏûÏ¢Ñ­»·Ö®ºó·µ»Ø£¬·µ»ØÖµÎªWM_QIUTÏûÏ¢µÄwParam²ÎÊý¡£
+
+
+ÿWINAPI ºÍAPIENTRY¶¼ÊÇFAR PASCAL  call£¬¶¼ÊÇÓÃtypedef¶¨ÒåµÄ¡£ÒÔ¼°CALLBACK
+
+»¹ÓÐ£¬ÎÒ¾õµÄÓ¦¸Ã¿ªÒ»¸ö×¨ÃÅµÄwindows sdk°æ»òÕßwindows±à³ÌÖ®ÀàµÄ°æ¡£±Ï¾¹ÕâÐ©¸úc++Ã»ÓÐÌ«´óµÄ¹ØÏµ¡£c++²»ÊÇÊÜÏÞÓÚÄ³Ò»¸öÏµÍ³£¬windows¿ÉÒÔÓÃc++£¬linuxÒ²¿ÉÒÔÓÃc++£¬ÆäËûµÄ²Ù×÷ÏµÍ³Ò²¿ÉÒÔÓÃc++À´ÃèÊö¡£¶øÇÒ£¬sdk±¾Éí¸úcµÄ¹ØÏµ¸üÃÜÇÐÒ»Ð©£¡
+
+
+
+ÿnShowCmd ÊÇ WinMain µÄÒ»¸öÐÎ²Î±äÁ¿£¬Õâ¸ö±äÁ¿ÔÚ ShowWindow(hwnd, nShowCmd); ÖÐ½«±»ÓÃµ½£¬Ö»Òª±£³ÖÒ»ÖÂ¾Í¿ÉÒÔÁË¡£Èç¹ûÄãÔÚº¯ÊýÖÐÊ¹ÓÃnCmdShow, ¶øÔÚWinMain º¯ÊýÖÐ¶¨ÒånShowCmd, ÕâÑù¾Í³öÏÖÇ°ºó²»Ò»ÖÂ£¬ËùÒÔ³öÏÖ£¬´íÎóÐÅÏ¢£¬ËµÄãÓÐ±äÁ¿Ã»ÓÐ¶¨Òå¡£
+
+ÖÁÓÚÄãËµµÄÓÃÆäËûÄ£Ê½£¬ÎÒ¾õµÃÃ»±ØÒª£¬ÏÖÔÚ¾ÍÕâÑù°´²¿¾Í°àµÄ×÷°É¡£
+
+ÎÒ²»´òËã£¬Ò»´Î¸ãÌ«¶à£¬ÕâÑùºÜ¿ÉÄÜ¾Í»áÓÐÅóÓÑÃ»ÓÐÄÍÐÄ¸ú×Å×öÁË¡£ÎÒ´òËãÃ¿´ÎÖ»ÊÇÈÃ´ó¼ÒÍùÇ°×ßÒ»Ð¡²½£¬ÕâÑù´ó¼Ò»áÓÐÅ¨ºñµÄÐËÈ¤µÄ¡£
+
+live41, Äã·ÅÐÄ£¬ÎÒ»á¼ÌÐøÏÂÈ¥µÄ£¬Ã¿ÐÇÆÚÎÒ¶¼»á¸ø³öÒ»¸öÍêÕûµÄ´úÂë£¬×îÖÕÎÒÃÇÀ´×öÊµ¼ÊµÄÏîÄ¿¡£
+
+µÚÒ»¶Î³ÌÐòÖ»ÊÇ windows ³ÌÐòµÄ¿ò¼Ü³ÌÐò£¬´ó¼ÒÊ²Ã´Ò²Ã»¿´µ½£¬²»¹ýÒÔºóÔÚ´Ë»ù´¡ÉÏ£¬ÂýÂýÔö¼Ó´úÂë£¬¾Í¿ÉÊµÏÖÔÂÀ´Ô½¶àµÄÄÚÈÝ¡£

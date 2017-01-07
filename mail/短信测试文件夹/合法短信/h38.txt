@@ -1,0 +1,13 @@
+
+WinAPI函数(chm版)
+
+ 点击浏览该文件
+
+
+WinMain函数介绍：
+
+　　WinMain是Windows程序的入口点函数，和Dos程序的入口点函数main的作用相同，当WinMain函数结束或返回时，Windows应用程序结束。WinMain函数的原型如下：
+
+int WINAPI WinMain(  //  :: API = Application Programming Interface -> 应用编程接口
+HINSTANCE hInstance, // handle to current instance  :: instance -> 实例
+HINSTANCE hPrevIns

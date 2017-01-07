@@ -1,0 +1,10 @@
+数组变量赋值由多种：
+1、按照一般变量赋值， 如：a(2,3)=5
+2、运用for循环赋值，如：for i=1 to n
+                                         for j=1 to m
+                                              a(i,j)=.......
+                                         next j
+                                      next i
+3、for each 成员 in 数组
+4、数组变量名=array(数组元素值）
+       如：numbers=array(1,2,3,4,5)    'numb

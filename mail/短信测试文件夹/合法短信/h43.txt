@@ -1,0 +1,38 @@
+
+live41, Äã·ÅÐÄ£¬ÎÒ»á¼ÌÐøÏÂÈ¥µÄ£¬Ã¿ÐÇÆÚÎÒ¶¼»á¸ø³öÒ»¸öÍêÕûµÄ´úÂë£¬×îÖÕÎÒÃÇÀ´×öÊµ¼ÊµÄÏîÄ¿¡£
+
+µÚÒ»¶Î³ÌÐòÖ»ÊÇ windows ³ÌÐòµÄ¿ò¼Ü³ÌÐò£¬´ó¼ÒÊ²Ã´Ò²Ã»¿´µ½£¬²»¹ýÒÔºóÔÚ´Ë»ù´¡ÉÏ£¬ÂýÂýÔö¼Ó´úÂë£¬¾Í¿ÉÊµÏÖÔÂÀ´Ô½¶àµÄÄÚÈÝ¡£
+
+µÚ¶þ¸ö³ÌÐò´úÂë½«ÔÚÖÜÁùÌù³ö¡£ 
+
+
+ÿ        
+
+
+
+
+Äã5Â¥Òâ¼ûÎÒÈÏÎª¿ÉÈ¡£¬ÕâÊÇÏÔ¶øÒ×¼ûµÄ£¬ÓÉÓÚ±¾³ÌÐò¾ÍÒ»¸öcase, ÁíÍâÒ»¸öÎªdefault case, ËùÒÔ²»»áÓÐÈÎºÎ²»Õý³£Çé¿ö³öÏÖ¡£
+
+
+ 
+ÿÐ»Ð»ÄãµÄ½â´ð£¬ÎÒÔÚ3Â¥¸øÁËÒ»Ð©Ïà¹Ø×ÊÁÏ£¬Ï£Íû¶Ô´ó¼ÒÓÐ°ïÖú¡£ÎÒÒ²Ö§³ÖÄãÒ»¸öÐÇÆÚÒ»´ÎµÄ×ö·¨£¬ÆäÊµ¼ä¸ôÔÙ³¤ÎÒÒ²»áºò×ÅÄãµÄ¡£ÎÒÒ²¼ÌÐøÎÊÎÊÌâ£º
+
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,LPSTR lpCmdLine, int nShowCmd)
+
+º¯ÊýÀïÃæµÄHINSTANCEºÍLPSTRÊÇÀà»¹ÊÇ½á¹¹£¬»¹ÊÇ±»typedefÁËµÄ»ù±¾ÀàÐÍ£¿
+
+
+ºÇºÇ£¬Ð»Ð»Â¥ÏÂµÄ»Ø´ðÎÒµÄÎÊÌâ£¬ÓÉÓÚ²»Ïë¹àË®Õ¼µØ·½£¬ËùÒÔÎ©ÓÐÐÞ¸Ä´ËÌûÁË¡£
+
+ÿÈçºÎÓÐÐ§µÄ²éÕÒ´íÎó
+
+
+±¾·½·¨½²ÊöµÄÊÇÈçºÎÔÚVC++6.0ÖÐ²éÕÒ³ÌÐòÖÐµÄ´íÎó£¬Ç°ÌáÊÇÄãµÄ³ÌÐòÒÑ¾­Í¨¹ý±àÒëÆ÷µÄ¼ìÑé£¬È·¶¨Ã»ÓÐÓï·¨´íÎó¡£
+´ó¼ÒÖªµÀÓï·¨´íÎóÊÇ×îµÍ¼¶µÄÒ»ÖÖ´íÎó£¬¶øÄÇÐ©²»ÄÜ±»±àÒëÆ÷²éÕÒ³öÀ´µÄ´íÎó£¬ÈçÂß¼­´íÎó£¬ÄÚ´æÐ¹Â¶£¬ÊÇ²»ÈÝÒ×²éÕÒ³öÀ´µÄ¡£Ò»µ©³ÌÐò³öÁËÎÊÌâ£¬Ê×ÏÈÏëµ½µÄµ±È»ÊÇ×Ô¼º½â¾ö£¬ÒòÎªÄãÀÏÊÇÎÊ±ðÈËµÄ»°£¬×Ô¼ºµÄË®Æ½ÊÇÓÀÔ¶Ò²²»»áÌá¸ßµÄ¡£ÄÇÃ´ÈçºÎ²ÅÄÜ¸ü¿ìµÄ·¢ÏÖ´íÎóµÄ£¬VC++6.0Õâ¸ö¹¤¾ßÎªÎÒÃÇÌá¹©ÕâÑùµÄ¹¦ÄÜ¡£
+
+ÏÂÃæÎÒ¾ÍÖ÷ÒªµÄ²¿·Ö½éÉÜÒ»ÏÂ£º
+F9 break point °´Ò»´Î²åÈëÒ»¸ö¶Ïµã£¬ÔÙ°´Ò»´ÎÉ¾³ýÕâ¸ö¶Ïµã¡££¨³ÌÐòÖ´ÐÐµ½¶Ïµã´¦»áÍ£ÏÂÀ´
+
+£©
+Ctrl + Shift + F9 ¿ÉÉ¾³ýËùÓÐ¶Ïµã¡£
+F10 µ¥²½Ö´ÐÐ£¬¼´Ò»ÐÐÒ»ÐÐµÄÖ´ÐÐ³ÌÐò¡£

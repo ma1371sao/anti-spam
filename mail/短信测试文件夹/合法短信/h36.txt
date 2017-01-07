@@ -1,0 +1,18 @@
+
+
+Ò»£¬º¯ÊýÆª (±È½Ï¼òµ¥£¬½öÌáÁ½¸öÎÊÌâ¶øÒÑ£©
+
+ÎÊÌâÒ»£º ±àÐ´Ò»¸ö³ÌÐòÅÐ¶¨Ò»¸ö×Ö·ûÔÚÒ»¸ö×Ö·û´®ÖÐ³öÏÖµÄ´ÎÊý£¬Èç¹û¸Ã×Ö·û²»³öÏÖÔò·µ»ØÖµ 0¡£
+
+ÎÊÌâ¶þ£º ±àÐ´Ò»¸ö³ÌÐòÅÐ¶¨Ò»¸ö×Ó´®ÔÚÒ»¸ö×Ö·û´®ÖÐ³öÏÖµÄ´ÎÊý£¬Èç¹û¸Ã×Ó´®²»³öÏÖÔò·µ»ØÖµ0¡£
+
+
+ÿºÇºÇ, kai»¹ÊÇÄÇÃ´ÈÈÐÄ. ¿´À´ÎÒÒ²ÐèÒªÔÚJavaÇø¶à»î¶¯»î¶¯ÁË,²»È»ÄÇ±ß¶¼Ã»ÓÐÈËÑÌÁË
+
+ÌáµãÐ¡Òâ¼û, kaiÉÏÃæµÄ³ÌÐòÓÃÁËºÜ¹æ·¶µÄ±ê×¼C++Í·ÎÄ¼þÐ´·¨, µ«ÊÇVC6.0²»ºÜÖ§³Ö, ËùÒÔ¿ÉÒÔ²»ÄÜÍ¨¹ý±àÒë
+µ«ÊÇÏÖÔÚµÄVC7.0ÒÔºó(Ò²¾ÍÊÇVisual Studio.NETÏµÁÐ)µÄC++±àÒëÆ÷¶Ô±ê×¼C++µÄÖ§³Ö»¹ÊÇºÜºÃµÄ, ÉÏÃæµÄ³ÌÐòÍêÈ«¿ÉÒÔÍ¨¹ý±àÒë(ÎÒÊµÑéÁËµÚÒ»¸ö)ËùÒÔ½¨Òé³õÑ§ÕßÊ¹ÓÃDev-C++»òÕßVisual Studio 2003µÈC++¼Ì³Ð»·¾³À´Ñ§Ï°±ê×¼C++
+
+
+ÿÏÈÌá¹©Á½¸ö¸öºÃ¶«Î÷about Windows API£º
+
+APIº¯Êý±í(txt°æ)

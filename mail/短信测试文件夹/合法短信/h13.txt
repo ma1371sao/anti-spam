@@ -1,0 +1,5 @@
+Ð§ÂÊµÄÒâÒå£¬ÔÚÏÖÔÚÀ´Ëµ²»¹âÊÇ³ÌÐòÔËÐÐµÄÐ§ÂÊ,»¹ÓÐ³ÌÐò¿ª·¢Ð§ÂÊ¼°ÒÔºóµÄÎ¬»¤Ð§ÂÊ¡£ÏÖÔÚµÄ³ÌÐò¿ª·¢ÊÇÍÅÌåºÏ×÷¿ª·¢£¬ÄãÐ´µÄ´úÂë±ðÈË¶Á²»¶®ÓÃ²»ÁËÔËÐÐÐ§ÂÊÔÙºÃÒ²Ã»ÓÃ.ÈÎºÎÒ»¸ö¿ª·¢ÍÅÌå¶¼ÓÐÏàÓ¦µÄ¹æ·¶.
+ÿ°´¡°alt+×ÖÄ¸¡±¿ÉÒÔÃ´£¿
+
+½«command1µÄcaptionÊôÐÔÉèÖÃÎª
+ÔòÔÚÖ´ÐÐÊ±£¬°´alt+z,¾ÍÏàµ±ÓÚµ¥»÷command1

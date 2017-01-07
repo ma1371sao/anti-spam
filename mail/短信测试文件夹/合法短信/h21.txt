@@ -1,0 +1,5 @@
+dim£ºÖ÷ÒªÓÃÓÚ´°ÌåÄ£¿é»òÕß±ê×¼Ä£¿éÖÐ£¬¶¨Òå´°Ìå»òÕß±ê×¼Ä£¿éÊý×é£¬²»ÄÜÓÃÓÚ¹ý³ÌÖÐ¡£
+redim£ºÓÃÓÚ¹ý³ÌÖÐ¡£
+static£ºÓÃÓÚ¹ý³ÌÖÐ¡£
+public£ºÓÃÔÚ±ê×¼Ä£¿éÖÐ£¬¶¨ÒåÈ«¾Ö±äÁ¿¡£
+ÿ ÈçºÎ´ò¿ª

@@ -1,0 +1,7 @@
+ublic£ºÓÃÔÚ±ê×¼Ä£¿éÖÐ£¬¶¨ÒåÈ«¾Ö±äÁ¿¡£
+ÿ ÈçºÎ´ò¿ªÒ»¸öÒÑ¾­´æÔÚµÄWORDÎÄµ²?
+
+ÓÃVBÈçºÎ´ò¿ªWORDÎÄµ²?Çë¸øÎÒÐ´µã´úÂë!
+ÎÒÓÃset vbword=getobject("abc.doc")ÎªºÎ²»ÐÐ? ÿ ÔÚÏßµÈ£¬ÈçºÎÈÃ´°ÌåµÄ´óÐ¡Ëæ×Å±³¾°Í¼Æ¬µÄ´óÐ¡¶ø±ä»¯
+
+ÈçºÎÈÃ´°Ìå

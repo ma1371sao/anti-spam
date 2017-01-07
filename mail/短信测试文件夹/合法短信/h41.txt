@@ -1,0 +1,20 @@
+µÚ¶þ¸ö²ÎÊýhPrevInstance±íÊ¾µ±Ç°ÊµÀýµÄÉÏÒ»¸öÕýÔÚÔËÐÐµÄ£¬ÓÉÍ¬Ò»¸öÓ¦ÓÃ³ÌÐòËù²úÉúµÄÊµÀýµÄ¾ä±ú£¬¼´µ±Ç°ÊµÀýµÄ"¸ç¸ç"µÄ¾ä±ú¡£Èç¹û¸ÃÖµÎªNULL£¬Ôò±íÊ¾µ±Ç°ÊµÀýÊÇ¸Ã³ÌÐòÕýÔÚÔËÐÐµÄµÚÒ»·ÝÊµÀý£¬ÊÇ¡°³¤×Ó¡±£¬ÊÇ¡°ÀÏ´ó¡±¡£Èç¹û¸ÃÖµ²»ÎªNULL£¬Ö»ÄÜ±íÊ¾µ±Ç°ÊµÀý²»ÊÇ¸Ã³ÌÐòÕýÔÚÔËÐÐµÄµÚÒ»·ÝÊµÀý£¬²»ÊÇ¡°³¤×Ó¡±£¬²»ÊÇ¡°ÀÏ´ó¡±£¬µ«µ½µ×ÊÇ¡°ÀÏ¼¸¡±£¬¾ÍÎÞ´ÓµÃÖªÁË¡£Õâ¸ö²ÎÊýµ½µ×ÓÐÊ²Ã´×÷ÓÃÄØ£¿Èç¹ûÏëÈÃÎÒÃÇµÄ³ÌÐòÖ»ÄÜÓÐÒ»·ÝÊµÀýÔËÐÐ£¬²»ÄÜÍ¬Ê±ÓÐ¶à·ÝÊµÀýÔËÐÐ£¬ÎÒÃÇ¿ÉÒÔÔÚWinMainº¯ÊýµÄ¿ªÊ¼²¿·Ö¼ÓÉÏÈçÏÂ´úÂëÊµÏÖ¡£
+
+if(hPrevInstance) return 0;  // :: -> if(hPrevInstance!=NULL)
+
+¡¡¡¡ÎÒÃÇÔÙÀ´¿´¿´if(hPrevInstance) return 0;µÄ×÷ÓÃ£¬Èç¹ûhPrevInstanceÎªNULL£¨¼´0£©£¬ËµÃ÷µ±Ç°ÔËÐÐµÄÊµÀýÊÇ³ÌÐòµÄµÚÒ»¸öÊµÀý£¬WinMainº¯Êý½«²»·µ»Ø£¬³ÌÐòÕý³£ÏòÏÂÔËÐÐ¡£Ö»ÒªhPrevInstance²»ÎªNULL£¬ËµÃ÷ÒÑ¾­ÓÐÍ¬Ñù³ÌÐòµÄÊµÀýÔÚÔËÐÐ£¬WinMainº¯Êý½«·µ»Ø£¬µ±Ç°ÊµÀýÆô¶¯ºóÁ¢Âí½áÊø£¬ÕâÑù¾Í±£Ö¤ÁËÖ»ÓÐ³ÌÐòµÄÒ»¸öÊµÀý¿ÉÒÔÔËÐÐ¡£
+
+¡¡¡¡µÚÈý¸ö²ÎÊýlpCmdLineÊÇÒ»¸ö×Ö·û´®£¬ÀïÃæ°üº¬ÓÐ´«µÝ¸øÓ¦ÓÃ³ÌÐòµÄ²ÎÊý´®£¬Èç£ºË«»÷CÅÌÏÂµÄ1.txtÎÄ¼þ·½Ê½Æô¶¯notepad.exe³ÌÐò£¬´«µÝ¸ønotepad.exe³ÌÐòµÄ²ÎÊý´®¼´"c:\1.txt"£¬²»°üº¬Ó¦ÓÃ³ÌÐòÃû±¾Éí¡£ÒªÔÚVC¿ª·¢»·¾³ÖÐ¸øÓ¦ÓÃ³ÌÐò´«µÝ²ÎÊý£¬ÇëÑ¡Ôñ²Ëµ¥Project->Settings...,ÔÚµ¯³öµÄProject Settings¶Ô»°¿òÖÐÑ¡ÔñDebug±êÇ©£¬ÔÚ¸Ã±êÇ©Ò³µÄProgram arguments±à¼­¿òÖÐÊäÈëÄãÏë´«µÝ¸øÓ¦ÓÃ³ÌÐòµÄ²ÎÊý¡£ÎÒÃÇÔÚWinMainº¯ÊýµÄÈë¿ÚµãÉèÖÃÒ»ÔËÐÐ¶Ïµã£¬ÒÔµ÷ÊÔ·½Ê½Æô¶¯³ÌÐòÔËÐÐÖÁ¸Ã¶Ïµã´¦£¬½«Êó±êÒÆ¶¯µ½²ÎÊýlpCmdLineÉÏ£¬ÔÚµ¯³öµÄ»ÆÉ«Ð¡¸¡¿òÖÐ±ãÄÜ¹Û²ìµ½¸Ã±äÁ¿µÄÖµ¡£ÔÚÎÒÃÇµÄ³ÌÐòµ÷ÊÔÖÐ£¬¾­³£ÒªÓÃµ½ÕâÖÖ·½·¨²é¿´±äÁ¿µÄÖµºÍ×´Ì¬¡£
+
+¡¡¡¡µÚËÄ¸ö²ÎÊýnCmdShowÖ¸¶¨µÄ³ÌÐòµÄ´°¿ÚÓ¦¸ÃÈçºÎÏÔÊ¾£¬Èç×î´ó»¯£¬×îÐ¡»¯£¬Òþ²ØµÈ¡£
+
+¡¡¡¡WinMainº¯ÊýÇ°µÄÐÞÊÎ·ûWINAPIµÄ½âÊÍ£¬ÎÒÃÇÊ¹ÓÃgoto definition¹¦ÄÜ£¬·¢ÏÖWINAPIÆäÊµ¾ÍÊÇ__stdcall¡£
+
+////  :: std = standard -> ±ê×¼
+
+¡¡¡¡__stdcallÓë__cdeclÊÇÁ½ÖÖ²»Í¬µÄº¯Êýµ÷ÓÃÏ°¹ß£¬¶¨ÒåÁË²ÎÊýµÄ´«µÝË³Ðò¡¢¶ÑÕ»Çå³ýµÈ¡£¹ØÓÚËüÃÇµÄÏêÏ¸ÐÅÏ¢Çë²Î¿´msdn¡£ÓÉÓÚ³ýÁËÄÇÐ©¿É±ä²ÎÊýµÄAPIº¯ÊýÍâ£¬ÆäÓàµÄAPIº¯Êý¶¼ÊÇ__stdcallÏ°¹ß¡£ÓÉÓÚVC++³ÌÐòÄ¬ÈÏµÄ±àÒëÑ¡ÏîÊÇ__cdecl£¬ËùÒÔÔÚVC++ÖÐµ÷ÓÃÕâÐ©__stdcallÏ°¹ßµÄAPIº¯Êý£¬±ØÐëÔÚÉùÃ÷ÕâÐ©º¯ÊýµÄÔ­ÐÍÊ±¼ÓÉÏ__stdcallÐÞÊÎ·û£¬ÒÔ±ã¶Ô¸Ãº¯ÊýµÄµ÷ÓÃÊ¹ÓÃ__stdcallÏ°¹ß¡£ÎÒÃÇÔøÓÐÕâÑùµÄ¾­Ñé£¬ÔÚDelphi(Ä¬ÈÏµÄ±àÒëÑ¡ÏîÊÇ__stdcall)ÖÐ±àÐ´µÄdllÖÐµÄº¯Êý£¬ÔÚVC++ÖÐ±»µ÷ÓÃÊ±£¬×ÜÊÇÔì³É³ÌÐò±ÀÀ££¬ÔÚº¯ÊýµÄÔ­ÐÍÉùÃ÷ÖÐ¼ÓÉÏ__stdcallÐÞÊÎ·û£¬±ã½â¾öÁËÕâ¸öÎÊÌâ¡£»Øµ÷º¯ÊýÒ²±ØÐëÊÇ__stdcallµ÷ÓÃÏ°¹ß£¬ÔÚÕâÀïÊÇÓÃCALLBACKÀ´±êÊ¶µÄ£¬·ñÔò£¬ÔÚNT4.0»·¾³£¬³ÌÐò½«±ÀÀ££¬µ«win98ºÍwin2000È´Ã»ÓÐÕâÖÖÏÖÏó¡£
+
+¡¡¡¡Winmainº¯ÊýµÄ³ÌÐò´úÂë°´¹¦ÄÜ»®·ÖÖ÷ÒªÓÐÁ½²¿·Ö£º1.²úÉú²¢ÏÔÊ¾³ÌÐòµÄÖ÷´°¿Ú¡£´°¿Ú´´½¨²¢ÏÔÊ¾ºó£¬ÓÃ»§±ã¿ÉÒÔÔÚ´°¿ÚÉÏ½øÐÐ¸÷ÖÖ²Ù×÷ÁË£¬ÓÃ»§µÄ²Ù×÷¼°³ÌÐò×´Ì¬µÄ±ä»¯¶¼ÒÔÏûÏ¢µÄÐÎÊ½·Åµ½ÁËÓ¦ÓÃ³ÌÐòµÄÏûÏ¢¶ÓÁÐÖÐ¡£2.´ÓÏûÏ¢¶ÓÁÐÑ­»·È¡×ßÏûÏ¢£¬²¢½«ÏûÏ¢ÅÉ·¢µ½´°¿Ú¹ý³Ìº¯ÊýÖÐÈ¥´¦Àí¡£µ±ÏûÏ¢Ñ­»·È¡µ½Ò»ÌõWM_QUITÏûÏ¢Ê±£¬½«½áÊøÑ­»·£¬WinMainº¯Êý·µ»Ø£¬½áÊøÕû¸ö³ÌÐòµÄÔËÐÐ¡£Èç¹ûWinMainÔÚÏûÏ¢Ñ­»·Ö®Ç°·µ»Ø£¬³ÌÐòÃ»ÓÐÕý³£ÔËÐÐ£¬·µ»ØÖµÎª0¡£Èç¹ûÔÚÏûÏ¢Ñ­»·Ö®ºó·µ»Ø£¬·µ»ØÖµÎªWM_QIUTÏûÏ¢µÄwParam²ÎÊý¡£
+
+
+ÿWINAPI ºÍAPIENTRY¶¼ÊÇFAR PASCAL  call£¬¶¼ÊÇÓÃty
